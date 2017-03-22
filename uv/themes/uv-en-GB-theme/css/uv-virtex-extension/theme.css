@@ -2435,6 +2435,9 @@ input[type=range]:focus::-ms-fill-upper {
     display: none;
   }
 }
+#app .headerPanel .options {
+  background-color: #5f574f;
+}
 #app .headerPanel .options .centerOptions {
   width: 390px;
 }

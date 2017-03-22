@@ -4024,6 +4024,9 @@ input[type=range]:focus::-ms-fill-upper {
 #app .leftPanel .thumbsView .thumb.selected .wrap {
   border: none;
 }
+#app .headerPanel .options {
+  background-color: #5f574f;
+}
 #app .headerPanel .options .centerOptions {
   width: 390px;
 }
