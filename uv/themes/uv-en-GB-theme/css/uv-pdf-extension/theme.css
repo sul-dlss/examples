@@ -25,7 +25,7 @@
   text-decoration: none;
 }
 #app .overlay.share .middle .content .tabs .tab:hover {
-  border-bottom: 1px solid #14a4c3;
+  border-bottom: 1px solid #8c1515;
   color: #000;
   margin-bottom: -1px;
   font-weight: bold;
@@ -37,7 +37,7 @@
   margin: 0 0 0 10px;
 }
 #app .overlay.share .middle .content .tabs .tab.on {
-  border-bottom: 1px solid #14a4c3;
+  border-bottom: 1px solid #8c1515;
   color: #000;
   margin-bottom: -1px;
   font-weight: bold;
@@ -341,7 +341,7 @@
   width: 35px;
   overflow-x: hidden;
   text-overflow: ellipsis;
-  color: #14a4c3;
+  color: #8c1515;
   padding-left: 14px;
   background: url('../../img/uv-shared-module/search_result.png') no-repeat 0px 3px;
 }
@@ -2332,8 +2332,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: #fff;
-  background-color: #14a4c3;
-  border-color: #14a4c3;
+  background-color: #8c1515;
+  border-color: #8c1515;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -2341,8 +2341,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: #fff;
-  background-color: #10859e;
-  border-color: #0e758b;
+  background-color: #691010;
+  border-color: #570d0d;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -2364,8 +2364,8 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #14a4c3;
-  border-color: #14a4c3;
+  background-color: #8c1515;
+  border-color: #8c1515;
 }
 .btn-secondary {
   color: #fff;
@@ -2941,7 +2941,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 #app .headerPanel .informationBox {
   background: #FFB81D;
-  color: #343434;
+  color: #433e38;
   width: 100%;
   position: absolute;
   height: 40px;
@@ -3112,8 +3112,8 @@ input[type=range]:focus::-ms-fill-upper {
   line-height: 30px;
 }
 #app .centerPanel .content .attribution {
-  background: #343434;
-  background: rgba(52, 52, 52, 0.7);
+  background: #433e38;
+  background: rgba(67, 62, 56, 0.7);
   position: absolute;
   width: 190px;
   padding: 10px 10px 10px 10px;
@@ -3538,7 +3538,7 @@ input[type=range]:focus::-ms-fill-upper {
   width: 24px;
   height: 24px;
   float: right;
-  background-color: #14a4c3;
+  background-color: #8c1515;
 }
 #app .overlay .middle {
   width: 100%;
@@ -3689,7 +3689,7 @@ input[type=range]:focus::-ms-fill-upper {
   display: block;
 }
 .iiif-gallery-component .main .thumbs.multiSelect .thumb.insideScrollArea .wrap.multiSelected {
-  border: 2px solid #14a4c3;
+  border: 2px solid #8c1515;
 }
 .iiif-gallery-component .main .thumbs .thumb {
   margin: 0 7px 7px 0;
@@ -3721,7 +3721,7 @@ input[type=range]:focus::-ms-fill-upper {
   color: #fff;
 }
 .iiif-gallery-component .main .thumbs .thumb.insideScrollArea .info .searchResults {
-  color: #14a4c3;
+  color: #8c1515;
   background: url('../../img/uv-shared-module/search_result.png') no-repeat 0px 3px;
 }
 .iiif-gallery-component .main .thumbs .thumb.insideScrollArea.selected .wrap {
@@ -3782,7 +3782,7 @@ input[type=range]:focus::-ms-fill-upper {
   background: url('../../img/uv-shared-module/unavailable.png') no-repeat 50% 50%;
 }
 .iiif-gallery-component .main .thumbs.multiSelect .thumb .wrap.multiSelected {
-  background: #14a4c3;
+  background: #8c1515;
 }
 .iiif-gallery-component .main .thumbs.multiSelect .thumb .wrap.multiSelected .thumbImage {
   opacity: 0.35;
@@ -3865,7 +3865,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 .iiif-metadata-component .groups .group .items .item .label {
   color: #9a9a9a;
-  border-bottom: 1px solid #343434;
+  border-bottom: 1px solid #433e38;
   margin: 15px 10px 0 0;
 }
 .iiif-metadata-component .groups .group .items .item .label .copyText {
@@ -3885,7 +3885,7 @@ input[type=range]:focus::-ms-fill-upper {
   white-space: nowrap;
   padding: 4px;
   text-transform: none;
-  background-color: #343434;
+  background-color: #433e38;
   z-index: 1;
   border: 1px solid #9a9a9a;
   border-radius: 2px;
@@ -4024,11 +4024,38 @@ input[type=range]:focus::-ms-fill-upper {
 #app .leftPanel .thumbsView .thumb.selected .wrap {
   border: none;
 }
+#app .headerPanel a.imageBtn.first {
+  background-color: transparent;
+}
+#app .headerPanel a.imageBtn.first:hover {
+  background-color: #433e38;
+}
+#app .headerPanel a.imageBtn.prev {
+  background-color: transparent;
+}
+#app .headerPanel a.imageBtn.prev:hover {
+  background-color: #433e38;
+}
+#app .headerPanel a.imageBtn.next {
+  background-color: transparent;
+}
+#app .headerPanel a.imageBtn.next:hover {
+  background-color: #433e38;
+}
+#app .headerPanel a.imageBtn.last {
+  background-color: transparent;
+}
+#app .headerPanel a.imageBtn.last:hover {
+  background-color: #433e38;
+}
+#app .headerPanel a.imageBtn.disabled {
+  background-color: transparent;
+}
+#app .headerPanel a.imageBtn.disabled:hover {
+  background-color: transparent;
+}
 #app .headerPanel .options {
   background-color: #5f574f;
-}
-#app .headerPanel .options .centerOptions {
-  width: 390px;
 }
 #app .footerPanel .searchPager .controls .searchResultsInfo {
   width: 337px;
