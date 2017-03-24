@@ -267,7 +267,7 @@
 #app .overlay.login .bottom {
   background: none;
 }
-@media only screen and (min-width: 0px) and (max-width: 640px) {
+@media only screen and (min-width: 0px) and (max-width: 1px) {
   #app .overlay.share {
     padding: 0 0 45px 8px;
   }
@@ -2946,7 +2946,7 @@ input[type=range]:focus::-ms-fill-upper {
   display: block;
   color: #26b5cc;
 }
-@media only screen and (min-width: 0px) and (max-width: 640px) {
+@media only screen and (min-width: 0px) and (max-width: 1px) {
   #app .headerPanel {
     display: none;
   }
@@ -3044,7 +3044,7 @@ input[type=range]:focus::-ms-fill-upper {
     display: none;
   }
 }
-@media only screen and (min-width: 0px) and (max-width: 640px) {
+@media only screen and (min-width: 0px) and (max-width: 1px) {
   #app .footerPanel.mobile {
     display: block;
     position: relative;
